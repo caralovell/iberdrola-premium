@@ -16,7 +16,7 @@ const InversionSection = () => (
       <ScrollReveal>
         <div className="text-center max-w-3xl mx-auto mb-10">
           <span className="inline-block text-xs uppercase tracking-[0.3em] text-accent font-primary font-bold mb-4">
-            06
+            07
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground">Inversión</h2>
         </div>
