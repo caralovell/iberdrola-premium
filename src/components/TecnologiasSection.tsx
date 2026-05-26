@@ -5,11 +5,7 @@ import ScrollReveal from "./ScrollReveal";
 import vistaTienda from "@/assets/vista-tienda.png";
 import mockupCuestionario from "@/assets/mockup-cuestionario.png";
 import mockupRecomendacion from "@/assets/mockup-recomendacion.png";
-
-// Para añadir más imágenes en el futuro:
-// 1. Sube la imagen a src/assets/
-// 2. Importa aquí: import nombreImg from "@/assets/nombre.png";
-// 3. Pon "image: nombreImg" en la tecnología correspondiente
+import wipass from "@/assets/iberdrolanfc.png";
 
 const tecnologias = [
   {
@@ -24,8 +20,8 @@ const tecnologias = [
   },
   {
     title: "Wipass",
-    desc: "Identifica al cliente al entrar, le da acceso a landing personalizada con QR/NFC y activa gamificación con productos.",
-    image: null,
+    desc: "Plataforma de WiFi marketing que convierte la conexión a la red de la tienda en una oportunidad de captación. Al conectarse, el cliente aterriza en una landing personalizada de Iberdrola con acceso por QR o NFC, donde puede explorar contenido, recibir ofertas y participar en sorteos vinculados a los productos de la tienda. Cada interacción queda registrada, alimentando el perfil del cliente y permitiendo seguimiento posterior por email o SMS.",
+    image: wipass,
   },
   {
     title: "Cuestionario inteligente",
