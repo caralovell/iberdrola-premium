@@ -14,7 +14,7 @@ import mockupRecomendacion from "@/assets/mockup-recomendacion.png";
 const tecnologias = [
   {
     title: "Gestor de colas",
-    desc: "Sistema actual de gestión de turnos integrado al journey digital. Reserva remota desde la app y asignación al llegar.",
+    desc: "Sistema de gestión de turnos ya operativo en las tiendas Iberdrola. El cliente saca ticket en el kiosko según el motivo de su visita y el sistema le asigna al comercial disponible. Nuestra propuesta lo integra al journey digital: la cita se puede reservar desde la app antes de llegar, el Wipass identifica al cliente automáticamente al entrar, y el ticket se asigna sin necesidad de pulsar nada en el kiosko.",
     image: vistaTienda,
   },
   {
