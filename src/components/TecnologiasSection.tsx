@@ -14,12 +14,12 @@ const tecnologias = [
     image: vistaTienda,
   },
   {
-    title: "IoT Nespra",
+    title: "IoT",
     desc: "Sensorización de la tienda en tiempo real: conteo de personas, movimiento, temperatura, humedad y bienestar.",
     image: null,
   },
   {
-    title: "Wipass",
+    title: "NFC",
     desc: "Plataforma de WiFi marketing que convierte la conexión a la red de la tienda en una oportunidad de captación. Al conectarse, el cliente aterriza en una landing personalizada de Iberdrola con acceso por QR o NFC, donde puede explorar contenido, recibir ofertas y participar en sorteos vinculados a los productos de la tienda. Cada interacción queda registrada, alimentando el perfil del cliente y permitiendo seguimiento posterior por email o SMS.",
     image: wipass,
   },
@@ -29,12 +29,12 @@ const tecnologias = [
     image: mockupCuestionario,
   },
   {
-    title: "IA aplicada a producto",
+    title: "IA",
     desc: "Aplicada a cargador de coche eléctrico, placas solares, aerotermia y domótica. Recomendación, simulación y venta cruzada.",
     image: mockupRecomendacion,
   },
   {
-    title: "Experiencia metaverso",
+    title: "Experiencia Inmersiva",
     desc: "Explicación inmersiva de los productos. 'Vive tu casa con Iberdrola' antes de contratarlo.",
     image: null,
   },
