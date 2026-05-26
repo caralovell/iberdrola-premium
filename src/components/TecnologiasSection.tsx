@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
 
 // Imágenes ya disponibles en tu proyecto
-import vistaTienda from "@/assets/vista-tienda.png";
+import vistaTienda from "@/assets/gestor.png";
 import mockupCuestionario from "@/assets/mockup-cuestionario.png";
 import mockupRecomendacion from "@/assets/mockup-recomendacion.png";
 import wipass from "@/assets/iberdrolanfc.png";
