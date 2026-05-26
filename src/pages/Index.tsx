@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import ObjetivosSection from "@/components/ObjetivosSection";
 import PilaresSection from "@/components/PilaresSection";
+import TecnologiasSection from "@/components/TecnologiasSection";
 import RecorridoSection from "@/components/RecorridoSection";
 import PlanoSection from "@/components/PlanoSection";
 import DatosSection from "@/components/DatosSection";
@@ -15,6 +16,8 @@ const Index = () => (
     <ObjetivosSection />
     <SectionDivider />
     <PilaresSection />
+    <SectionDivider />
+    <TecnologiasSection />
     <SectionDivider />
     <RecorridoSection />
     <SectionDivider />
