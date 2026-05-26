@@ -15,7 +15,7 @@ const tecnologias = [
   },
   {
     title: "IoT",
-    desc: "Sensorización de la tienda en tiempo real: conteo de personas, movimiento, temperatura, humedad y bienestar.",
+    desc: "Red de sensores conectados que convierte la tienda en un espacio inteligente. Mide en tiempo real el aforo, el flujo de personas por zonas, la temperatura, la humedad y los niveles de confort, y vuelca todo en un dashboard único que sirve tanto al equipo de tienda (para optimizar atención y consumo energético) como a la dirección (para comparar tiendas, identificar horas pico y entender el comportamiento real del cliente). Es la capa que hace que la tienda no solo atienda, sino que también aprenda.",
     image: null,
   },
   {
@@ -30,17 +30,17 @@ const tecnologias = [
   },
   {
     title: "IA",
-    desc: "Aplicada a cargador de coche eléctrico, placas solares, aerotermia y domótica. Recomendación, simulación y venta cruzada.",
+    desc: "Una capa de inteligencia que conecta lo que el cliente cuenta (cuestionario, perfil energético, recorrido en la tienda) con las soluciones de Iberdrola: cargador para coche eléctrico, placas solares, aerotermia, domótica y smart home. La IA simula consumo y ahorro estimado, recomienda el pack más adecuado al perfil del cliente, y activa venta cruzada inteligente: si alguien ya está interesado en placas solares, sugiere automáticamente el cargador EV compatible. Decisiones de minutos en lugar de visitas múltiples.",
     image: mockupRecomendacion,
   },
   {
     title: "Experiencia Inmersiva",
-    desc: "Explicación inmersiva de los productos. 'Vive tu casa con Iberdrola' antes de contratarlo.",
+    desc: "Una recreación inmersiva de la vivienda del cliente donde puede ver, antes de contratar, cómo cambia su casa con las soluciones de Iberdrola: cómo se integran las placas en su tejado, cómo funciona la aerotermia en invierno, cómo responde el smart home a sus rutinas. Mediante realidad virtual con gafas o realidad aumentada desde el móvil sobre los productos en la tienda, el cliente deja de imaginar y empieza a ver el resultado — el salto emocional que convierte una propuesta técnica en una decisión personal.",
     image: null,
   },
   {
     title: "Robótica",
-    desc: "Asistente robotizado que orienta, informa y entretiene en el momento del asesoramiento comercial.",
+    desc: "Un asistente robotizado presente en la tienda que da la bienvenida, orienta al cliente hacia la zona que le interesa, responde dudas básicas sobre los productos y entretiene mientras espera su turno. Más allá del impacto visual y el "factor wow" propio de un espacio premium, libera al comercial de las consultas repetitivas para que pueda centrarse en lo importante: la conversación de asesoramiento real con quien ya está preparado para comprar.",
     image: null,
   },
 ];
