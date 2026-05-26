@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import LogopostLogo from "@/assets/logopost-logo.png";
-import IberdrolaLogo from "@/assets/iberdola.png";
+import logopostLogo from "@/assets/logopost-logo.png";
+import iberdrolaLogo from "@/assets/iberdola.png";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 16 },
@@ -25,24 +25,20 @@ const HeroSection = () => (
         transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
       />
     </div>
-
     {/* Content — proposal cover */}
     <div className="relative z-10 flex flex-col items-center gap-8 max-w-3xl w-full">
       {/* 1. Client logo */}
       <motion.div {...fadeUp(0.1)}>
-        <IberdrolaLogo className="h-14 md:h-16" />
+        <img src={iberdrolaLogo} alt="Iberdrola" className="h-14 md:h-16 w-auto" />
       </motion.div>
-
       {/* 2. Label */}
       <motion.span className="text-xs uppercase tracking-[0.35em] text-muted-foreground/70" {...fadeUp(0.25)}>
         Propuesta de
       </motion.span>
-
       {/* 3. Logopost logo — main anchor */}
       <motion.div {...fadeUp(0.4)}>
-        <LogopostLogo className="text-3xl md:text-4xl" />
+        <img src={logopostLogo} alt="Logopost" className="h-12 md:h-14 w-auto" />
       </motion.div>
-
       {/* 3.5 Tagline */}
       <motion.div className="flex items-center gap-4 w-full max-w-md" {...fadeUp(0.5)}>
         <span className="h-px flex-1 bg-accent/60" />
@@ -51,7 +47,6 @@ const HeroSection = () => (
         </span>
         <span className="h-px flex-1 bg-accent/60" />
       </motion.div>
-
       {/* 4. Proposal info */}
       <motion.div className="flex flex-col items-center gap-1.5 mt-2" {...fadeUp(0.6)}>
         <p className="text-sm text-muted-foreground">
@@ -71,7 +66,6 @@ const HeroSection = () => (
           Director Comercial y Marketing
         </p>
       </motion.div>
-
       {/* 5. Scroll indicator */}
       <motion.div
         className="mt-10 flex justify-center"
