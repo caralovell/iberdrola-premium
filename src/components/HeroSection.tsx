@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import LogopostLogo from "./LogopostLogo";
-import IberdrolaLogo from "./IberdrolaLogo";
+import LogopostLogo from "@/assets/logopost-logo.png";
+import IberdrolaLogo from "@/assets/iberdola.png";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 16 },
