@@ -25,7 +25,7 @@ const tecnologias = [
   },
   {
     title: "Cuestionario inteligente",
-    desc: "Tipo de vivienda → orientación → consumo → recomendación personalizada. Conoce al cliente y propone ahorro real.",
+    desc: "Un flujo guiado de pocos pasos en el que el cliente describe su vivienda — tipo, orientación, distribución, consumo — y, en menos de un minuto, recibe una recomendación personalizada de soluciones Iberdrola: aerotermia, placas solares, smart home o aerotérmia, según su perfil. La interacción puede iniciarse en el cuestionario previo a la visita (desde la app o un SMS con cita) y completarse en el comercial dentro de la tienda, de modo que cuando el cliente llega, el comercial ya tiene contexto y la conversación arranca con una propuesta concreta de ahorro energético en la mesa.",
     image: mockupCuestionario,
   },
   {
