@@ -43,7 +43,7 @@ const HeroSection = () => (
       <motion.div className="flex items-center gap-4 w-full max-w-md" {...fadeUp(0.5)}>
         <span className="h-px flex-1 bg-accent/60" />
         <span className="text-sm uppercase tracking-[0.3em] text-accent font-medium whitespace-nowrap">
-          Tiendas Premium
+          Línea digital
         </span>
         <span className="h-px flex-1 bg-accent/60" />
       </motion.div>
@@ -53,7 +53,7 @@ const HeroSection = () => (
           <span className="opacity-60">Nombre de cliente:</span>{" "}
           <span className="text-foreground/80">Iberdrola</span>
           <span className="mx-3 opacity-30">|</span>
-          <span className="opacity-60">Fecha:</span> <span className="text-foreground/80">26/05/2026</span>
+          <span className="opacity-60">Fecha:</span> <span className="text-foreground/80">27/05/2026</span>
         </p>
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Persona de contacto:</span>{" "}
