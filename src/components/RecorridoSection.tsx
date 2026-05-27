@@ -21,9 +21,11 @@ import {
   Mail,
 } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
-import mockupCuestionario from "@/assets/mockup-cuestionario.png";
-import vistaTienda from "@/assets/vista-tienda.png";
-import mockupRecomendacion from "@/assets/mockup-recomendacion.png";
+import pre from "@/assets/pre.png";
+import entrada from "@/assets/entrar.png";
+import bienvenida from "@/assets/bienvenida.png";
+import dina from "@/assets/dinamizacion.png";
+import entorno from "@/assets/display.png";
 
 type Tech = { icon: any; title: string; desc: string };
 type Fase = {
@@ -46,7 +48,7 @@ const fases: Fase[] = [
       { icon: FileText, title: "Formulario previo", desc: "Motivo de visita, intereses, productos a explorar" },
       { icon: MessageSquare, title: "Texto / mensaje automatizado", desc: "SMS o WhatsApp con info de la cita y enlace al cuestionario" },
     ],
-    image: mockupCuestionario,
+    image: pre,
     imageAlt: "Mockup del flow de bienvenida y cuestionario previo",
     caption: "Mockup del flow ¡Únete! → vivienda → orientación",
   },
@@ -59,6 +61,9 @@ const fases: Fase[] = [
       { icon: Wifi, title: "Wipass", desc: "Identificación del cliente y vinculación al journey digital" },
       { icon: Monitor, title: "Tótem con dashboard", desc: "Visualización de datos en tiempo real para el equipo interno" },
     ],
+     image: entrada,
+    imageAlt: "Mockup del flow de bienvenida y cuestionario previo",
+    caption: "Mockup del flow ¡Únete! → vivienda → orientación",
   },
   {
     num: "03",
@@ -69,7 +74,7 @@ const fases: Fase[] = [
       { icon: Clock, title: "Gestor de colas (kiosko)", desc: "Saca turno o asigna cita ya reservada desde la app" },
       { icon: QrCode, title: "Wipass landing + QR", desc: "Acceso rápido a contenido, ofertas y registro de visita" },
     ],
-    image: vistaTienda,
+    image: bienvenida,
     imageAlt: "Render del interior de una tienda premium Iberdrola",
     caption: "Interior con kiosko de gestor de turnos y pantalla de bienvenida",
   },
@@ -84,7 +89,7 @@ const fases: Fase[] = [
       { icon: Sparkles, title: "Metaverso · RA · RV", desc: 'Experiencia inmersiva: "vive tu casa con Iberdrola"' },
       { icon: Trophy, title: "Gamificación Wipass", desc: "Sorteos y desafíos vinculados a NFC y QR de los productos" },
     ],
-    image: mockupRecomendacion,
+    image: entorno,
     imageAlt: "Mockup móvil de recomendación de solución energética",
     caption: "Recomendador interactivo: del consumo a la solución",
   },
@@ -97,6 +102,9 @@ const fases: Fase[] = [
       { icon: UserCheck, title: "Comercial conectado", desc: "Acceso al perfil del cliente y a su recorrido por la tienda" },
       { icon: Bot, title: "Robótica", desc: "Asistente robotizado que orienta, informa y entretiene" },
     ],
+     image: dina,
+    imageAlt: "Mockup del flow de bienvenida y cuestionario previo",
+    caption: "Mockup del flow ¡Únete! → vivienda → orientación",
   },
   {
     num: "06",
