@@ -4,7 +4,7 @@ import ScrollReveal from "./ScrollReveal";
 // Imágenes ya disponibles en tu proyecto
 import vistaTienda from "@/assets/gestor.png";
 import mockupCuestionario from "@/assets/mockup-cuestionario.png";
-import mockupRecomendacion from "@/assets/asistente.png";
+import ia from "@/assets/asistente.png";
 import wipass from "@/assets/iberdrolanfc.png";
 import vr from "@/assets/vr.png";
 import totem from "@/assets/totem.png";
@@ -34,7 +34,7 @@ const tecnologias = [
   {
     title: "IA",
     desc: "Una capa de inteligencia que conecta lo que el cliente cuenta (cuestionario, perfil energético, recorrido en la tienda) con las soluciones de Iberdrola: cargador para coche eléctrico, placas solares, aerotermia, domótica y smart home. La IA simula consumo y ahorro estimado, recomienda el pack más adecuado al perfil del cliente, y activa venta cruzada inteligente: si alguien ya está interesado en placas solares, sugiere automáticamente el cargador EV compatible. Decisiones de minutos en lugar de visitas múltiples.",
-    image: mockupRecomendacion,
+    image: ia,
   },
   {
     title: "Experiencia Inmersiva",
