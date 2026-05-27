@@ -26,6 +26,7 @@ import entrada from "@/assets/entrar.png";
 import bienvenida from "@/assets/bienvenida.png";
 import dina from "@/assets/dinamizacion.png";
 import entorno from "@/assets/display.png";
+import satis from "@/assets/satis.png";
 
 type Tech = { icon: any; title: string; desc: string };
 type Fase = {
@@ -49,8 +50,7 @@ const fases: Fase[] = [
       { icon: MessageSquare, title: "Texto / mensaje automatizado", desc: "SMS o WhatsApp con info de la cita y enlace al cuestionario" },
     ],
     image: pre,
-    imageAlt: "Mockup del flow de bienvenida y cuestionario previo",
-    caption: "Mockup del flow ¡Únete! → vivienda → orientación",
+    imageAlt: "Mockup",
   },
   {
     num: "02",
@@ -62,8 +62,7 @@ const fases: Fase[] = [
       { icon: Monitor, title: "Tótem con dashboard", desc: "Visualización de datos en tiempo real para el equipo interno" },
     ],
      image: entrada,
-    imageAlt: "Mockup del flow de bienvenida y cuestionario previo",
-    caption: "Mockup del flow ¡Únete! → vivienda → orientación",
+    imageAlt: "Mockup",
   },
   {
     num: "03",
@@ -75,8 +74,7 @@ const fases: Fase[] = [
       { icon: QrCode, title: "Wipass landing + QR", desc: "Acceso rápido a contenido, ofertas y registro de visita" },
     ],
     image: bienvenida,
-    imageAlt: "Render del interior de una tienda premium Iberdrola",
-    caption: "Interior con kiosko de gestor de turnos y pantalla de bienvenida",
+    imageAlt: "Mockup",
   },
   {
     num: "04",
@@ -90,8 +88,7 @@ const fases: Fase[] = [
       { icon: Trophy, title: "Gamificación Wipass", desc: "Sorteos y desafíos vinculados a NFC y QR de los productos" },
     ],
     image: entorno,
-    imageAlt: "Mockup móvil de recomendación de solución energética",
-    caption: "Recomendador interactivo: del consumo a la solución",
+    imageAlt: "Mockup",
   },
   {
     num: "05",
@@ -103,8 +100,7 @@ const fases: Fase[] = [
       { icon: Bot, title: "Robótica", desc: "Asistente robotizado que orienta, informa y entretiene" },
     ],
      image: dina,
-    imageAlt: "Mockup del flow de bienvenida y cuestionario previo",
-    caption: "Mockup del flow ¡Únete! → vivienda → orientación",
+    imageAlt: "Mockup",
   },
   {
     num: "06",
@@ -115,6 +111,8 @@ const fases: Fase[] = [
       { icon: Repeat, title: "Venta cruzada con IA", desc: "Recomendación automatizada de producto complementario" },
       { icon: Mail, title: "Seguimiento post-visita", desc: "Resumen, recomendación y presupuesto enviado por app o email" },
     ],
+     image: satis,
+    imageAlt: "Mockup",
   },
 ];
 
