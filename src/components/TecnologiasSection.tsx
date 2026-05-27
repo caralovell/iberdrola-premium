@@ -8,6 +8,7 @@ import mockupRecomendacion from "@/assets/asistente.png";
 import wipass from "@/assets/iberdrolanfc.png";
 import vr from "@/assets/vr.png";
 import totem from "@/assets/totem.png";
+import robot from "@/assets/robot.png";
 
 const tecnologias = [
   {
@@ -43,7 +44,7 @@ const tecnologias = [
   {
     title: "Robótica",
     desc: "Un asistente robotizado presente en la tienda que da la bienvenida, orienta al cliente hacia la zona que le interesa, responde dudas básicas sobre los productos y entretiene mientras espera su turno. Más allá del impacto visual y el factor wow propio de un espacio premium, libera al comercial de las consultas repetitivas para que pueda centrarse en lo importante: la conversación de asesoramiento real con quien ya está preparado para comprar.",
-    image: null,
+    image: robot,
   },
 ];
 
