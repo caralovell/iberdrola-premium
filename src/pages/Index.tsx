@@ -6,7 +6,6 @@ import RecorridoSection from "@/components/RecorridoSection";
 import PlanoSection from "@/components/PlanoSection";
 import DatosSection from "@/components/DatosSection";
 import InversionSection from "@/components/InversionSection";
-import FooterSection from "@/components/FooterSection";
 import SectionDivider from "@/components/SectionDivider";
 
 const Index = () => (
@@ -26,7 +25,6 @@ const Index = () => (
     <DatosSection />
     <SectionDivider />
     <InversionSection />
-    <FooterSection />
   </div>
 );
 
