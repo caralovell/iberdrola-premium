@@ -6,6 +6,7 @@ import vistaTienda from "@/assets/gestor.png";
 import mockupCuestionario from "@/assets/mockup-cuestionario.png";
 import mockupRecomendacion from "@/assets/asistente.png";
 import wipass from "@/assets/iberdrolanfc.png";
+import vr from "@/assets/vr.png";
 
 const tecnologias = [
   {
@@ -36,7 +37,7 @@ const tecnologias = [
   {
     title: "Experiencia Inmersiva",
     desc: "Una recreación inmersiva de la vivienda del cliente donde puede ver, antes de contratar, cómo cambia su casa con las soluciones de Iberdrola: cómo se integran las placas en su tejado, cómo funciona la aerotermia en invierno, cómo responde el smart home a sus rutinas. Mediante realidad virtual con gafas o realidad aumentada desde el móvil sobre los productos en la tienda, el cliente deja de imaginar y empieza a ver el resultado — el salto emocional que convierte una propuesta técnica en una decisión personal.",
-    image: null,
+    image: vr,
   },
   {
     title: "Robótica",
