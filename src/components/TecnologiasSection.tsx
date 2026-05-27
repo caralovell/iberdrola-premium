@@ -41,7 +41,7 @@ const tecnologias = [
   },
   {
     title: "Robótica",
-    desc: "Un asistente robotizado presente en la tienda que da la bienvenida, orienta al cliente hacia la zona que le interesa, responde dudas básicas sobre los productos y entretiene mientras espera su turno. Más allá del impacto visual y el "factor wow" propio de un espacio premium, libera al comercial de las consultas repetitivas para que pueda centrarse en lo importante: la conversación de asesoramiento real con quien ya está preparado para comprar.",
+    desc: "Un asistente robotizado presente en la tienda que da la bienvenida, orienta al cliente hacia la zona que le interesa, responde dudas básicas sobre los productos y entretiene mientras espera su turno. Más allá del impacto visual y el factor wow propio de un espacio premium, libera al comercial de las consultas repetitivas para que pueda centrarse en lo importante: la conversación de asesoramiento real con quien ya está preparado para comprar.",
     image: null,
   },
 ];
