@@ -7,6 +7,7 @@ import mockupCuestionario from "@/assets/mockup-cuestionario.png";
 import mockupRecomendacion from "@/assets/asistente.png";
 import wipass from "@/assets/iberdrolanfc.png";
 import vr from "@/assets/vr.png";
+import totem from "@/assets/totem.png";
 
 const tecnologias = [
   {
@@ -17,7 +18,7 @@ const tecnologias = [
   {
     title: "IoT",
     desc: "Red de sensores conectados que convierte la tienda en un espacio inteligente. Mide en tiempo real el aforo, el flujo de personas por zonas, la temperatura, la humedad y los niveles de confort, y vuelca todo en un dashboard único que sirve tanto al equipo de tienda (para optimizar atención y consumo energético) como a la dirección (para comparar tiendas, identificar horas pico y entender el comportamiento real del cliente). Es la capa que hace que la tienda no solo atienda, sino que también aprenda.",
-    image: null,
+    image: totem,
   },
   {
     title: "NFC",
