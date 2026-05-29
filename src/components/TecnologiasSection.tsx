@@ -7,7 +7,7 @@ import mockupCuestionario from "@/assets/mockup-cuestionario.png";
 import ia from "@/assets/asistente.png";
 import wipass from "@/assets/iberdrolanfc.png";
 import vr from "@/assets/vr.png";
-import totem from "@/assets/real.png";
+import totem from "@/assets/iot.png";
 import robot from "@/assets/sonrio.png";
 
 const tecnologias = [
