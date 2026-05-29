@@ -21,7 +21,7 @@ import {
   Mail,
 } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
-import pre from "@/assets/pre.png";
+import pre from "@/assets/pre-entrada.png";
 import entrada from "@/assets/entrar.png";
 import bienvenida from "@/assets/bienvenida.png";
 import dina from "@/assets/dinamizacion.png";
