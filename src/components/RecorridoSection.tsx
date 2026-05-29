@@ -24,8 +24,8 @@ import ScrollReveal from "./ScrollReveal";
 import pre from "@/assets/pre-entrada.png";
 import entrada from "@/assets/pisando.png";
 import bienvenida from "@/assets/bienve.png";
-import dina from "@/assets/comercial.png";
-import entorno from "@/assets/entornoo.png";
+import dina from "@/assets/venta.png";
+import entorno from "@/assets/este.png";
 import satis from "@/assets/satis.png";
 
 type Tech = { icon: any; title: string; desc: string };
@@ -69,9 +69,9 @@ const fases: Fase[] = [
     name: "Bienvenida",
     desc: "El cliente es recibido. Pantallas que saludan, gestión de turnos sin fricción, y un primer punto de contacto digital que invita a participar.",
     tech: [
-      { icon: Monitor, title: "Pantalla LED", desc: 'Saludo personalizado: "Hola" / "Bienvenido/a" tras detectar Wipass' },
+      { icon: Monitor, title: "Pantalla LED", desc: 'Saludo personalizado' },
       { icon: Clock, title: "Gestor de colas", desc: "Saca turno o asigna cita ya reservada desde la app" },
-      { icon: QrCode, title: "Landing page", desc: "Acceso rápido a contenido, ofertas y registro de visita" },
+      { icon: QrCode, title: "QR", desc: "Acceso rápido a contenido, ofertas y registro de visita" },
     ],
     image: bienvenida,
     imageAlt: "Mockup",
@@ -81,8 +81,8 @@ const fases: Fase[] = [
     name: "Entorno",
     desc: "El cliente está rodeado de las soluciones de Iberdrola hechas tangibles. Aerotermia, cargador, placas solares, domótica — todo explorable de forma interactiva, gamificada y sensorial.",
     tech: [
-      { icon: Cpu, title: "IA aplicada a productos", desc: "Cargador EV · Placas solares · Aerotermia · Domótica · Smart Home" },
-      { icon: Music, title: "Marketing sensorial", desc: "Hilo musical, aromatización, iluminación adaptativa" },
+      { icon: Bot, title: "Robótica", desc: "Asistente robotizado que orienta, informa y entretiene" },
+      { icon: ScanLine, title: "Cuestionario inteligente", desc: "Tipo vivienda → orientación → consumo → recomendación personalizada" },
       { icon: Sparkles, title: "Metaverso", desc: 'Experiencia inmersiva: "vive tu casa con Iberdrola"' },
       { icon: Trophy, title: "Gamificación NFC", desc: "Sorteos y desafíos vinculados a los productos" },
     ],
@@ -94,9 +94,11 @@ const fases: Fase[] = [
     name: "Dinamización",
     desc: "Llega el momento humano. El comercial cuenta con toda la información previa del cliente y herramientas digitales para ofrecer un asesoramiento real, no improvisado.",
     tech: [
-      { icon: ScanLine, title: "Cuestionario inteligente", desc: "Tipo vivienda → orientación → consumo → recomendación personalizada" },
-      { icon: UserCheck, title: "Comercial conectado", desc: "Acceso al perfil del cliente y a su recorrido por la tienda" },
-      { icon: Bot, title: "Robótica", desc: "Asistente robotizado que orienta, informa y entretiene" },
+{ icon: UserCheck, title: "Comercial conectado", desc: "Acceso al perfil del cliente y a su recorrido por la tienda" },
+
+{ icon: TrendingUp, title: "Venta asistida", desc: "Recomendaciones y oportunidades comerciales basadas en intereses y necesidades detectadas" },
+
+{ icon: HeartHandshake, title: "Atención personalizada", desc: "Experiencias adaptadas en tiempo real para mejorar la satisfacción y el trato al cliente" },
     ],
      image: dina,
     imageAlt: "Mockup",
