@@ -13,7 +13,7 @@ import robot from "@/assets/sonrio.png";
 const tecnologias = [
   {
     title: "Gestor de colas",
-    desc: "Sistema de gestión de turnos ya operativo en las tiendas Iberdrola. El cliente saca ticket en el kiosko según el motivo de su visita y el sistema le asigna al comercial disponible. Nuestra propuesta lo integra al journey digital: la cita se puede reservar desde la app antes de llegar, el Wipass identifica al cliente automáticamente al entrar, y el ticket se asigna sin necesidad de pulsar nada en el kiosko.",
+    desc: "Sistema de gestión de turnos ya operativo en las tiendas Iberdrola. El cliente saca ticket en el kiosko según el motivo de su visita y el sistema le asigna al comercial disponible. Nuestra propuesta lo integra al journey digital: la cita se puede reservar desde la app antes de llegar, sensores identifican al cliente automáticamente al entrar, y el ticket se asigna sin necesidad de pulsar nada en el kiosko.",
     image: vistaTienda,
   },
   {
@@ -28,7 +28,7 @@ const tecnologias = [
   },
   {
     title: "Cuestionario inteligente",
-    desc: "Un flujo guiado de pocos pasos en el que el cliente describe su vivienda — tipo, orientación, distribución, consumo — y, en menos de un minuto, recibe una recomendación personalizada de soluciones Iberdrola: aerotermia, placas solares, smart home o aerotérmia, según su perfil. La interacción puede iniciarse en el cuestionario previo a la visita (desde la app o un SMS con cita) y completarse en el comercial dentro de la tienda, de modo que cuando el cliente llega, el comercial ya tiene contexto y la conversación arranca con una propuesta concreta de ahorro energético en la mesa.",
+    desc: "Un flujo guiado de pocos pasos en el que el cliente describe su vivienda (tipo, orientación, distribución, consumo) y, en menos de un minuto, recibe una recomendación personalizada de soluciones Iberdrola: aerotermia, placas solares, smart home o aerotérmia, según su perfil. La interacción puede iniciarse en el cuestionario previo a la visita (desde la app o un SMS con cita) y completarse en el comercial dentro de la tienda, de modo que cuando el cliente llega, el comercial ya tiene contexto y la conversación arranca con una propuesta concreta de ahorro energético en la mesa.",
     image: mockupCuestionario,
   },
   {
@@ -38,7 +38,7 @@ const tecnologias = [
   },
   {
     title: "Experiencia Inmersiva",
-    desc: "Una recreación inmersiva de la vivienda del cliente donde puede ver, antes de contratar, cómo cambia su casa con las soluciones de Iberdrola: cómo se integran las placas en su tejado, cómo funciona la aerotermia en invierno, cómo responde el smart home a sus rutinas. Mediante realidad virtual con gafas o realidad aumentada desde el móvil sobre los productos en la tienda, el cliente deja de imaginar y empieza a ver el resultado — el salto emocional que convierte una propuesta técnica en una decisión personal.",
+    desc: "Una recreación inmersiva de la vivienda del cliente donde puede ver, antes de contratar, cómo cambia su casa con las soluciones de Iberdrola: cómo se integran las placas en su tejado, cómo funciona la aerotermia en invierno, cómo responde el smart home a sus rutinas. Mediante realidad virtual con gafas o realidad aumentada desde el móvil sobre los productos en la tienda, el cliente deja de imaginar y empieza a ver el resultado, el salto emocional que convierte una propuesta técnica en una decisión personal.",
     image: vr,
   },
   {
@@ -63,7 +63,7 @@ const TecnologiasSection = () => (
       <ScrollReveal delay={0.1}>
         <div className="max-w-4xl mx-auto text-center mb-16">
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-            Las siete tecnologías que componen la propuesta. Cada una activa en un momento concreto del recorrido del cliente.
+            Las tecnologías que componen la propuesta, donde cada una se activa en un momento concreto del recorrido del cliente.
           </p>
         </div>
       </ScrollReveal>
