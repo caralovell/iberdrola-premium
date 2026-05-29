@@ -3,11 +3,11 @@ import ScrollReveal from "./ScrollReveal";
 
 // Imágenes ya disponibles en tu proyecto
 import vistaTienda from "@/assets/gestor.png";
-import mockupCuestionario from "@/assets/real.png";
+import mockupCuestionario from "@/assets/mockup-cuestionario.png";
 import ia from "@/assets/asistente.png";
 import wipass from "@/assets/iberdrolanfc.png";
 import vr from "@/assets/vr.png";
-import totem from "@/assets/totem.png";
+import totem from "@/assets/real.png";
 import robot from "@/assets/sonrio.png";
 
 const tecnologias = [
