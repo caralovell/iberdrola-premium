@@ -57,8 +57,8 @@ const fases: Fase[] = [
     name: "Entrada",
     desc: 'El cliente pisa la tienda y, en paralelo, la tienda empieza a "leerse" a sí misma. Datos de cliente y datos de operación, capturados en tiempo real.',
     tech: [
-      { icon: Radio, title: "IoT Nespra", desc: "Conteo de personas, movimiento, temperatura, humedad, bienestar" },
-      { icon: Wifi, title: "Wipass", desc: "Identificación del cliente y vinculación al journey digital" },
+      { icon: Radio, title: "IoT", desc: "Conteo de personas, movimiento, temperatura, humedad, bienestar" },
+      { icon: Wifi, title: "NFC", desc: "Identificación del cliente y vinculación al journey digital" },
       { icon: Monitor, title: "Tótem con dashboard", desc: "Visualización de datos en tiempo real para el equipo interno" },
     ],
      image: entrada,
@@ -71,7 +71,7 @@ const fases: Fase[] = [
     tech: [
       { icon: Monitor, title: "Pantalla LED · Escaparate · Digital Signage", desc: 'Saludo personalizado: "Hola" / "Bienvenido/a" tras detectar Wipass' },
       { icon: Clock, title: "Gestor de colas (kiosko)", desc: "Saca turno o asigna cita ya reservada desde la app" },
-      { icon: QrCode, title: "Wipass landing + QR", desc: "Acceso rápido a contenido, ofertas y registro de visita" },
+      { icon: QrCode, title: "Landing page + QR", desc: "Acceso rápido a contenido, ofertas y registro de visita" },
     ],
     image: bienvenida,
     imageAlt: "Mockup",
@@ -82,10 +82,9 @@ const fases: Fase[] = [
     desc: "El cliente está rodeado de las soluciones de Iberdrola hechas tangibles. Aerotermia, cargador, placas solares, domótica — todo explorable de forma interactiva, gamificada y sensorial.",
     tech: [
       { icon: Cpu, title: "IA aplicada a productos", desc: "Cargador EV · Placas solares · Aerotermia · Domótica · Smart Home" },
-      { icon: Hand, title: "Mesas interactivas", desc: "Tabletops con configurador de soluciones y simulaciones" },
       { icon: Music, title: "Marketing sensorial", desc: "Hilo musical, aromatización, iluminación adaptativa" },
-      { icon: Sparkles, title: "Metaverso · RA · RV", desc: 'Experiencia inmersiva: "vive tu casa con Iberdrola"' },
-      { icon: Trophy, title: "Gamificación Wipass", desc: "Sorteos y desafíos vinculados a NFC y QR de los productos" },
+      { icon: Sparkles, title: "Metaverso", desc: 'Experiencia inmersiva: "vive tu casa con Iberdrola"' },
+      { icon: Trophy, title: "Gamificación NFC", desc: "Sorteos y desafíos vinculados a los productos" },
     ],
     image: entorno,
     imageAlt: "Mockup",
