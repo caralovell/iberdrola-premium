@@ -52,8 +52,6 @@ const HeroSection = () => (
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Nombre de cliente:</span>{" "}
           <span className="text-foreground/80">Iberdrola</span>
-          <span className="mx-3 opacity-30">|</span>
-          <span className="opacity-60">Fecha:</span> <span className="text-foreground/80">27/05/2026</span>
         </p>
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Persona de contacto:</span>{" "}
