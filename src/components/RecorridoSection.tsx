@@ -95,7 +95,7 @@ const fases: Fase[] = [
     desc: "Llega el momento humano. El comercial cuenta con toda la información previa del cliente y herramientas digitales para ofrecer un asesoramiento real, no improvisado.",
     tech: [
 { icon: UserCheck, title: "Comercial conectado", desc: "Acceso al perfil del cliente y a su recorrido por la tienda" },
-{ icon: Lightbulb, title: "Venta inteligente", desc: "Identificación de oportunidades comerciales y recomendaciones personalizadas" },
+{ icon: Hand, title: "Venta inteligente", desc: "Identificación de oportunidades comerciales y recomendaciones personalizadas" },
 { icon: Users, title: "Experiencia diferencial", desc: "Atención personalizada para mejorar la satisfacción y fidelización" },
     ],
      image: dina,
