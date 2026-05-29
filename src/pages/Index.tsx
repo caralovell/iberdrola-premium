@@ -21,7 +21,6 @@ const Index = () => (
     <SectionDivider />
     <PlanoSection />
     <SectionDivider />
-    <SectionDivider />
     <InversionSection />
   </div>
 );
