@@ -16,7 +16,7 @@ const objetivos = [
   {
     icon: Target,
     title: "Cross Selling",
-    desc: "Aprovechar cada punto de contacto para ofrecer productos y servicios complementarios relevantes: autoconsumo, movilidad eléctrica, Smart Home, mantenimiento o nuevas tarifas.",
+    desc: "Aprovechar cada punto de contacto para ofrecer productos y servicios complementarios relevantes.",
   },
 ];
 
