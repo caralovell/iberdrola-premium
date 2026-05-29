@@ -43,7 +43,7 @@ const HeroSection = () => (
       <motion.div className="flex items-center gap-4 w-full max-w-md" {...fadeUp(0.5)}>
         <span className="h-px flex-1 bg-accent/60" />
         <span className="text-sm uppercase tracking-[0.3em] text-accent font-medium whitespace-nowrap">
-          Digitalización de oficinas
+          Dinamización de oficinas
         </span>
         <span className="h-px flex-1 bg-accent/60" />
       </motion.div>
