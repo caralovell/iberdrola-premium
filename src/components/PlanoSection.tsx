@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
-import planoTienda from "@/assets/plano-tienda.png";
+import planoTienda from "@/assets/espacio.png";
 
 const PlanoSection = () => (
   <section id="plano" className="py-12 md:py-16 bg-surface">
