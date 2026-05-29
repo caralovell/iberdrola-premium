@@ -23,7 +23,7 @@ import {
 import ScrollReveal from "./ScrollReveal";
 import pre from "@/assets/pre-entrada.png";
 import entrada from "@/assets/pisando.png";
-import bienvenida from "@/assets/bienvenida.png";
+import bienvenida from "@/assets/bienve.png";
 import dina from "@/assets/comercial.png";
 import entorno from "@/assets/entornoo.png";
 import satis from "@/assets/satis.png";
