@@ -22,7 +22,7 @@ import {
 } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 import pre from "@/assets/pre-entrada.png";
-import entrada from "@/assets/dentro.png";
+import entrada from "@/assets/pisando.png";
 import bienvenida from "@/assets/bienvenida.png";
 import dina from "@/assets/dinamizacion.png";
 import entorno from "@/assets/display.png";
