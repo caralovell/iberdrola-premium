@@ -4,7 +4,6 @@ import PilaresSection from "@/components/PilaresSection";
 import TecnologiasSection from "@/components/TecnologiasSection";
 import RecorridoSection from "@/components/RecorridoSection";
 import PlanoSection from "@/components/PlanoSection";
-import DatosSection from "@/components/DatosSection";
 import InversionSection from "@/components/InversionSection";
 import SectionDivider from "@/components/SectionDivider";
 
@@ -22,7 +21,6 @@ const Index = () => (
     <SectionDivider />
     <PlanoSection />
     <SectionDivider />
-    <DatosSection />
     <SectionDivider />
     <InversionSection />
   </div>
