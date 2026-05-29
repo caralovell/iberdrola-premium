@@ -15,8 +15,8 @@ const objetivos = [
   },
   {
     icon: Target,
-    title: "Captación de leads",
-    desc: "Cada punto de contacto genera oportunidades cualificadas: presupuestos, citas, suscripciones a productos Smart.",
+    title: "Cross Selling",
+    desc: "Aprovechar cada punto de contacto para ofrecer productos y servicios complementarios relevantes: autoconsumo, movilidad eléctrica, Smart Home, mantenimiento o nuevas tarifas.",
   },
 ];
 
