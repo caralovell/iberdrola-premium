@@ -96,7 +96,7 @@ const fases: Fase[] = [
     tech: [
 { icon: UserCheck, title: "Comercial conectado", desc: "Acceso al perfil del cliente y a su recorrido por la tienda" },
 { icon: Hand, title: "Venta inteligente", desc: "Identificación de oportunidades comerciales y recomendaciones personalizadas" },
-{ icon: Users, title: "Experiencia diferencial", desc: "Atención personalizada para mejorar la satisfacción y fidelización" },
+{ icon: CheckCircle2, title: "Experiencia diferencial", desc: "Atención personalizada para mejorar la satisfacción y fidelización" },
     ],
      image: dina,
     imageAlt: "Mockup",
