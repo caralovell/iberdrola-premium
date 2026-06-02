@@ -73,7 +73,7 @@ const fases: Fase[] = [
       { icon: Clock, title: "Gestor de colas", desc: "Saca turno o asigna cita ya reservada desde la app" },
       { icon: QrCode, title: "QR", desc: "Acceso rápido a contenido, ofertas y registro de visita" },
     ],
-    image: bienvenida,
+    image: sinte,
     imageAlt: "Mockup",
   },
   {
