@@ -23,7 +23,7 @@ import {
 import ScrollReveal from "./ScrollReveal";
 import pre from "@/assets/pre-entrada.png";
 import entrada from "@/assets/pisando.png";
-import bienvenida from "@/assets/bienve.png";
+import bienvenida from "@/assets/sinte.png";
 import dina from "@/assets/venta.png";
 import entorno from "@/assets/este.png";
 import satis from "@/assets/satis.png";
@@ -73,7 +73,7 @@ const fases: Fase[] = [
       { icon: Clock, title: "Gestor de colas", desc: "Saca turno o asigna cita ya reservada desde la app" },
       { icon: QrCode, title: "QR", desc: "Acceso rápido a contenido, ofertas y registro de visita" },
     ],
-    image: sinte,
+    image: bienvenida,
     imageAlt: "Mockup",
   },
   {
